@@ -3,7 +3,7 @@ using System.Xml;
 int[] inputArray = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
 
 
-long Calculate(int A, int B)
+long Calculate(long A, long B)
 {
     long output = (A + B) * (A - B);
     return output;
